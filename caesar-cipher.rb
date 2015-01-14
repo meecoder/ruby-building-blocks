@@ -13,4 +13,10 @@ def caesar_cipher(str, int)
     end
     puts fin
 end
-caesar_cipher("What a string!", 5)
+print "Enter some text: "
+text = gets.chomp()
+puts ""
+print "How many letters should this be shifted forward? "
+change = gets.chomp()
+puts ""
+caesar_cipher(text, change)
