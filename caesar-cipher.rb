@@ -17,6 +17,6 @@ print "Enter some text: "
 text = gets.chomp()
 puts ""
 print "How many letters should this be shifted forward? "
-change = gets.chomp()
+change = gets.chomp().to_i
 puts ""
 caesar_cipher(text, change)
